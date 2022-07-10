@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea clase 9</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tarea Clase 9</h1>
+    </header>
+    <main>
+        <section class="consigna">
+            <h2>Completando el código!</h2>
+            <p>
+                Muchas veces el trabajo como desarrolladores consiste en revisar, corregir y completar código para obtener funcionalidades que ya han sido parcialmente implementadas por otras personas.
+                Les encargamos como tarea que lean esta consigna y completen el trabajo.
+            </p>
+            <p>
+                El campo para ingresar la contraseña tiene una validación hecha con JS.
+                Pero no esta funcionando correctamente :( <br>
+                El programador que estaba haciendo esta validación era un poco vago 
+                y dejó sin terminar algunos fragmentos de código.  El desafío de este ejercicio es que revisen el archivo form-validation.js y puedan completar esos fragmentos.
+            </p>
+            <p>
+                <strong>Importante:</strong> en el código encontraremos algunas cosas que aún no hemos visto en clase, muchas veces en el trabajo como desarrolladores nos encontramos leyendo código que no comprendemos del todo! <br>
+                Pero que no cunda el pánico, hemos indicado dónde tienen que completar el código utilizando lo que hemos aprendido hasta ahora.
+            </p>
+        </section>
+        <section class="form">
+            <h2>Registro</h2>
+            <form id="register-form">
+                <label for="user-name">Usuario:
+                    <input type="text" id="user-name" name="user-name">
+                </label>
+
+                <label for="password">Contraseña:
+                    <input type="password" id="password" name="password">
+                </label>
+
+                <label for="confirm-password">Confirmar contraseña:
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </label>
+
+                <p id="message"></p>
+
+                <button type="submit" id="submit" disabled>
+                    Registrarme
+                </button>
+            </form>
+        </section>
+    </main>
+    
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
